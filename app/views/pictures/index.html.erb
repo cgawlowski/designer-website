@@ -1,0 +1,16 @@
+<div class="container">
+  <h1>Pictures</h1>
+  <div class="row">
+    <% @pictures.each do |picture| %>
+      <div class="col-6 col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><%= picture.name %></h5>
+            <p class="card-text"><%= picture.description %></p>
+            <%= link_to "More details", picture_path(picture), class: "btn btn-primary" %>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
