@@ -7,6 +7,7 @@
           <div class="card-body">
             <h5 class="card-title"><%= picture.name %></h5>
             <p class="card-text"><%= picture.description %></p>
+            <p>Amount: <%= humanized_money_with_symbol(picture.price) %></p>
             <%= link_to "More details", picture_path(picture), class: "btn btn-primary" %>
           </div>
         </div>

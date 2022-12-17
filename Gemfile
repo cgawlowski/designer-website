@@ -7,6 +7,7 @@ ruby "2.7.1"
 gem "rails", "~> 7.0.4"
 
 gem 'faker'
+gem 'money-rails'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
