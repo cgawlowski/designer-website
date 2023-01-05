@@ -1,3 +1,3 @@
 class Picture < ApplicationRecord
-  monetize :price_cents
+  # monetize :price_cents
 end
